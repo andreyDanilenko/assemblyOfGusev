@@ -331,19 +331,21 @@ svg {
   background-position: center center;
   background-size: cover;
   padding: 69px 0 48px;
-  transition: 3s; }
+  transition: 3s;
+  /* @keyframes mova {
+    0% {
+      padding: 69px 0 48px;
+    }
+
+    100% {
+      padding: 247px 0 48px;
+    }
+  }*/ }
   @media (min-width: 980px) {
     .hero {
       padding: 174px 0 84px; } }
   .hero--open {
-    animation: mova 2.5s ease-in-out;
     padding: 247px 0 48px; }
-
-@keyframes mova {
-  0% {
-    padding: 69px 0 48px; }
-  100% {
-    padding: 247px 0 48px; } }
   .hero__row {
     margin-left: -15px;
     margin-right: -15px;
